@@ -56,10 +56,19 @@ a:hover {
   color: white
 }
 
-header {
+.fighter {
   text-align: center;
   background: url('images/GlorytoHK.jpg') no-repeat top center ;
   background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.catattop{
+  text-align: center;
+  background: url('images/catheader.png') no-repeat top center ;
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -84,7 +93,7 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 5px auto;
-} 
+}   
 .location {
   background-color: rgb(0, 0, 0);
   color: yellow;
@@ -119,6 +128,53 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #01a4cd;
+}
+
+.hkfight, 
+.lionmountain{
+  border: 3px solid #ff9904;
+  color:#ff9904;
+  max-width: 44.5%;
+  height: 50%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hkfight{
+  float: left;
+  
+}
+
+.lionmountain{
+  float: right;
+  
+}
+
+.catimages{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.dumbbellimages{
+  text-align: center;
+  color: #ff9904;
+  margin: 5px;
+  margin-left: 100px;
+  float: left;
+  width: 400px;
+  border: 2px solid #ff9904;
+}
+
+.donutimages{
+  text-align: center;
+  color: #ff9904;
+  margin: 5px;
+  margin-right: 100px;
+  float: right;
+  width: 400px;
+  border: 2px solid #ff9904;
+
 }
 
 footer {
@@ -199,6 +255,3 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-}
-
